@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities for better text handling */
+.overflow-wrap-anywhere {
+  overflow-wrap: anywhere;
+}
+
+.word-break-break-word {
+  word-break: break-word;
+}
+
+.break-words {
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
